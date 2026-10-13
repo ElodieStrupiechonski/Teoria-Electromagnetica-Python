@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Si usas este material, por favor cítalo así:"
+title: "Anatomía de una gráfica — Explorador interactivo"
+authors:
+  - family-names: Strupiechonski
+    given-names: Elodie
+    orcid: "https://orcid.org/0000-0001-8991-8499"
+    affiliation: "ENES Juriquilla, UNAM"
+  - family-names: "de Luna Bugallo"
+    given-names: Andrés
+    orcid: "https://orcid.org/0000-0002-7591-5235"
+    affiliation: "CFATA, UNAM"
+version: "2.0"
+date-released: "2026-10-13"
+license: CC-BY-4.0
+type: software
+url: "https://elodiestrupiechonski.github.io/anatomia-grafica-explorador/"

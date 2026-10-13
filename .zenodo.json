@@ -1,0 +1,35 @@
+{
+  "title": "Anatomía de una gráfica — Explorador interactivo",
+  "description": "Explorador interactivo (HTML, funciona sin conexión) que guía un miniproyecto científico de graficación con Python (NumPy y matplotlib): la profundidad de piel δ(f) para varios materiales. Seis pestañas: escritura de la función, barrido de frecuencias (linspace/logspace), casos por material, ejes y escala lineal o logarítmica, leyenda y estilo de marcadores, y script completo con retos. Recurso educativo abierto.",
+  "upload_type": "lesson",
+  "language": "spa",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Strupiechonski, Elodie",
+      "orcid": "0000-0001-8991-8499",
+      "affiliation": "ENES Juriquilla, UNAM"
+    },
+    {
+      "name": "de Luna Bugallo, Andrés",
+      "orcid": "0000-0002-7591-5235",
+      "affiliation": "CFATA, UNAM"
+    }
+  ],
+  "keywords": [
+    "graficación científica",
+    "matplotlib",
+    "NumPy",
+    "Python",
+    "efecto piel",
+    "profundidad de penetración",
+    "escala logarítmica",
+    "recurso educativo abierto",
+    "OER",
+    "física",
+    "UNAM",
+    "ENES Juriquilla"
+  ],
+  "version": "2.0"
+}

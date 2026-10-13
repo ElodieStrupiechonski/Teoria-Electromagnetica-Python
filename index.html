@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Elodie Strupiechonski; Andrés de Luna Bugallo">
+<title>Anatomía de una gráfica · Explorador interactivo · ENES Juriquilla</title>
+<style>
+  :root{--navy:#1F3864;--steel:#4472C4;--ice:#DCE6F1;--orange:#C55A11;--ink:#1A1A1A;--grey:#5B5B5B;--line:#D3DEEE;--bg:#F4F7FB}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',Calibri,system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+  header{background:var(--navy);color:#fff;padding:22px;border-bottom:4px solid var(--orange)}
+  header .in,.wrap{max-width:860px;margin:0 auto}
+  header h1{margin:0;font-size:25px}
+  header p{margin:5px 0 0;font-size:14px;color:var(--ice)}
+  .wrap{padding:22px 18px 40px}
+  .box{background:#fff;border:1px solid var(--line);border-left:5px solid var(--steel);border-radius:12px;padding:16px 18px;margin-bottom:20px;box-shadow:0 1px 4px rgba(31,56,100,.06)}
+  .box h2{margin:0 0 6px;font-size:16px;color:var(--navy)}
+  .box p,.box li{font-size:14px}
+  ol{padding-left:20px;margin:8px 0}
+  .go{display:inline-block;background:var(--orange);color:#fff;font-weight:700;text-decoration:none;border-radius:8px;padding:10px 18px;margin-top:8px}
+  footer{font-size:13px;color:var(--grey);border-top:1px solid var(--line);padding-top:14px}
+  footer a{color:var(--navy)}
+</style>
+</head>
+<body>
+<header><div class="in">
+  <h1>Anatomía de una gráfica científica</h1>
+  <p>Explorador interactivo · miniproyecto de graficación con Python · ENES Juriquilla, UNAM</p>
+</div></header>
+<div class="wrap">
+  <div class="box">
+    <h2>Miniproyecto: la profundidad de piel δ(<i>f</i>)</h2>
+    <p>Construimos paso a paso una figura científica completa; cada control modifica la gráfica en vivo y muestra la línea de matplotlib que lo produce.</p>
+    <ol>
+      <li><b>Función</b> — de la ecuación a <code>def delta(...)</code></li>
+      <li><b>Frecuencias</b> — rango y muestreo lineal o logarítmico</li>
+      <li><b>Materiales</b> — un caso por curva</li>
+      <li><b>Ejes y escala</b> — unidades, lineal o log</li>
+      <li><b>Leyenda y estilo</b> — marcadores, trazos, <code>savefig</code></li>
+      <li><b>Script y retos</b> — script completo y seis retos</li>
+    </ol>
+    <a class="go" href="anatomia_grafica_interactivo.html">Abrir el explorador →</a>
+  </div>
+  <footer>
+    <p>Autoría: Elodie Strupiechonski (ENES Juriquilla, UNAM · ORCID <a href="https://orcid.org/0000-0001-8991-8499">0000-0001-8991-8499</a>) y Andrés de Luna Bugallo (CFATA, UNAM · ORCID <a href="https://orcid.org/0000-0002-7591-5235">0000-0002-7591-5235</a>). Licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>.</p>
+    <p>Cómo citar: Strupiechonski, E., &amp; de Luna Bugallo, A. (2026). <i>Anatomía de una gráfica — Explorador interactivo</i> (Versión 2.0) [Recurso educativo abierto]. UNAM, ENES Juriquilla. DOI: 10.5281/zenodo.XXXXXXX (se completa al publicar en Zenodo).</p>
+  </footer>
+</div>
+</body>
+</html>
